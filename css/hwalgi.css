@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./font.css);
+
+
+
+#wrap { width:100%; max-width:1920px; margin:0 auto;display: block; height:100vh;  background-size: cover; background: url(../img/common/bg\ 1.png)50% 50% no-repeat;  }
+
+
+
+    #header {z-index: 4; position: relative; width:100%; max-width:1920px; height:auto; margin:0 auto; }
+    /* #header.addTop {  border-bottom: 1px solid #E6E6E6; } */
+    #header .headercon {width: 100%;position: relative; }
+    #header .headercon .headerGap { width: 100%; padding: 62px 0 54px 0; }
+    #header .headercon .headerGap .logo {width: 100%; padding-bottom: 35px;}
+    #header .headercon .headerGap .logo .logoImg {width:81px; display: block;height: 33px; margin: 0 auto;text-align: center;}
+    #header .headercon .headerGap .logo .logoImg img {width: 100%; height: 100%;}
+
+            /* mainTxtBox */
+            .mainTxtBox {text-align: center;font-weight: 400;}
+            .mainTxtBox .subTxt1 {margin:0 auto ;display: block; width:100%; max-width :491px;  font-size: 20px; color:#B68787; }
+            .mainTxtBox .subTxtBottom {line-height: 150%;}
+            .mainTxtBox .subTxtBottom .subTxt2 {font-family: 'sandoll-gothicneo2'; font-weight: 400;color: #707070; font-size: 15px; }
+            .mainTxtBox .subTxtBottom .subTxt3 {font-family: 'sandoll-gothicneo2'; font-weight: 400;color: #4A4A4A; font-size: 15px; }
+            .mainTxtBox .mainTxt {  z-index:5;position: relative; margin: 0 auto; padding: 24px 0 ; }
+            .mainTxtBox .mainTxt .mainTxtImg { width: 408px; height: 169px; margin:0 auto ;}
+            .mainTxtBox .mainTxt .mainTxt1{ font-size: 40px; color: #7B2429;  font-family: 'Noto Serif KR';}
+            .mainTxtBox .mainTxt .mainTxt2{ font-size: 50px; color: #E11E29;font-family: 'Noto Serif KR'; }
+
+
+                    /* 거품메인텍스트  */
+                    .bubbleTopWrap  {  width: 100%;  max-width:1920px; display: block;  }
+                    .bubbleTopWrap .bubbleTopImgBox{ width: 100%;}
+                    .bubbleTopWrap .bubbleTopImgBox .bubbleTop1 { z-index:4; position: absolute; top:0;margin-top:184px; right: 50%; margin-right:-145px; width:229px;  width:auto;}
+                    .bubbleTopWrap .bubbleTopImgBox .bubbleTop2 { z-index:4; position: absolute; bottom: 0; margin-bottom:190px; right: 50%; margin-right: 112px; width:22px; height: 22px; }
+    
+    
+    
+
+
+
+
+
+/* 메인영역상단 padding-top:50px; */
+#wrap> #main{z-index: 3; position: relative; width:100%; max-width:1920px; overflow:visible; display:block;margin: 0 auto; padding:0 0 98px 0; background-size: cover; background: url(../img/common/bg\ 1.png)50% 50% repeat;  }
+/*  #section1  */
+#wrap> #main> #section1{  position: relative;  width:100%; height:100%; padding:0;  }
+#wrap> #main> #section1>.container { position: relative; width:100%; height:100%; margin:0 auto;padding:0;}		
+#wrap> #main> #section1>.container>.gap{ width: 100%; padding: 0 30px; }
+#wrap> #main> #section1>.container>.gap .redBox{ padding: 80px 0 80px 0; background:url(../img/common/redbg.png) no-repeat 50% 50% ; width: 100%; height: 692px; display: block; }
+#wrap> #main> #section1>.container>.gap .redBox .videoBox{ width:100%; max-width: 686px; height:auto;max-height: 387px; margin: 0 auto;}
+#wrap> #main> #section1>.container>.gap .redBox .videoBox img{width:100%;  height:100%; }
+#wrap> #main> #section1>.container>.gap .redBox .videoTxt{ text-align: center;font-weight: 400; padding-top: 60px; line-height:150% ;  font-family: 'Nanum Gothic';}
+#wrap> #main> #section1>.container>.gap .redBox .videoTxt .videoTxt1 {color: #fff; font-size: 18px; padding-bottom: 6px;  }
+#wrap> #main> #section1>.container>.gap .redBox .videoTxt .videoTxt2 {color: #fff; font-size: 24px;  }
+
+
+                    /* 거품 */
+                .bubbleWrap  {  width: 100%;  max-width:1920px; display: block;  }
+                .bubbleWrap .bubbleImgBox{ width: 100%;}
+                .bubbleWrap .bubbleImgBox .bubble1 { z-index:5; position: absolute; top: -120px; left: 79px; width:229px;  }
+                .bubbleWrap .bubbleImgBox .bubble2 { z-index:5; position: absolute; bottom: 510px; right: 115px; width:115px;  }
+
+
+
+
+
+/* section2 */
+#wrap> #main> #section2{ position: relative; width:100%;max-width:1920px; height:100%; padding:0; overflow: hidden; }
+#wrap> #main> #section2>.container { position: relative; width:100%;max-width:1920px; margin:0 auto;padding:0;}		
+#wrap> #main> #section2>.container>.gap{ width: 100%; padding: 0 30px; }
+#wrap> #main> #section2>.container>.gap h3 {  padding: 50px 30px; }
+#wrap> #main> #section2>.container>.gap h3 img {  width:183px; height:41px; margin: 0 auto;  display: block;}
+#wrap> #main> #section2>.container>.gap .productBoxWrap { width: 100%;  }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox { display: flex;  max-width: 632px; margin: 0 auto;}
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product { position: relative; z-index:5; display: inline-block;  width: auto; max-width: 300px; margin: 0 auto; }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .imgBox { display: block; margin: 0 auto; width:100%; max-width: 217px; height: 100%; max-height: 217px; }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .imgBox img {  width:100%;  height: 100%;  }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox { padding-top: 7px; width:100%; line-height: 150%; text-align: center; font-family: 'Pretendard'; }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .proTxt1 { display: block; color: #4F4F4F; font-weight: 500;font-size: 15px; }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .proTxt2 { display: block; color: #A88E8E; font-weight: 400; font-size: 13px; letter-spacing: -.55px; padding: 6px 0 22px 0; }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox { width:100%; }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn {  border-radius: 2px; display: block; width: 125px; margin: 0 auto; font-weight: 400; padding:8px 0; font-size: 13px; text-align: center; color: #666666; font-weight: 400; border: 1px solid #C5C5C5; background: transparent; transition: all .2s;}
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn:hover {  background:rgba(255,255,255,.5);}
+
+
+
+#wrap> #main> #section2>.container>.gap .ginsengImgWrap  {  width: 100%; height:100%;  max-width:1920px; display: block;}
+#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox {  width: 100%;height:100%; }
+#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng1 { z-index:2; position: absolute; top: 0; right: 0; width: 186px; }
+#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng2 { z-index:2; position: absolute; top: 150px; left: 0; width: 131px; }
+#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng3 { z-index:2; position: absolute; top: 0; left: 0; width: 187px; }
+
+
+
+
+
+
+
+
+
+#footer { z-index: 1; width:100%; max-width:1920px; background:#E8E5E0 ; display:block;margin: 0 auto; font-family: 'Pretendard';}
+#footer .container { width:100%;}
+#footer .container .gap { width:100%; padding: 42px;}
+#footer .container .gap .footerBtnBox { display: block; width: 150px; padding-bottom: 12px; margin:0 auto;}
+#footer .container .gap .footerBtnBox .footerBtn { display: flex; }
+#footer .container .gap .footerBtnBox .footerBtn li { display: inline-block; margin:0 auto; text-align: center; width:auto;}
+#footer .container .gap .footerBtnBox .footerBtn .bar { margin-top:4px; font-size: 11px; font-weight: 300;}
+#footer .container .gap .footerBtnBox .footerBtn li a {line-height: 19px;  font-size:12px ; font-weight: 400; color: #4B4B4B;}
+#footer .container .gap address { line-height: 19px; display: block ;  text-align: center;font-size:12px ; font-weight: 400; color: #787676;} 
+#footer .container .gap address .searchNumBtn a { line-height: 19px; text-decoration:underline;color: #787676; vertical-align:baseline;} 
+
+
+
