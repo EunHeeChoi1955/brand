@@ -103,8 +103,20 @@
 
     #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox { display: inline-block;  max-width: auto; margin: 0 auto; text-align: center;}
     #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product { padding-bottom: 50px;  }
-
-  
+    
+    
+    /* 배경 홍삼이미지 */
+    /* 우측 풀 */
+    #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng1 { z-index:2; position: absolute; top: 0; right: 0; margin-top: 280px; width: 186px; }
+    /* 좌측 밑에 그림 */
+    #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng2 { z-index:2; position: absolute; top: 0; left: 0; width: 131px;  margin-top: 580px;}
+    /* 좌측 위에 그림 */
+    #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng3 { z-index:2; position: absolute; top: 0; left: 0; width: 187px;  margin-top: 10px;}
+    
+    
+    
+    
+    
 }
 @media all and (max-width: 320px) {
 

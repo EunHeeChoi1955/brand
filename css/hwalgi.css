@@ -87,11 +87,14 @@
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn:hover {  background:rgba(255,255,255,.5);}
 
 
-
+/* 배경 홍삼이미지 */
 #wrap> #main> #section2>.container>.gap .ginsengImgWrap  {  width: 100%; height:100%;  max-width:1920px; display: block;}
 #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox {  width: 100%;height:100%; }
+/* 우측 풀 */
 #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng1 { z-index:2; position: absolute; top: 0; right: 0; margin-top: 50px; width: 186px; }
-#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng2 { z-index:2; position: absolute; top: 150px; left: 0; width: 131px;  margin-top: 50px;}
+/* 좌측 밑에 그림 */
+#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng2 { z-index:2; position: absolute; top:0; margin-top: 150px; left: 0; width: 131px;  }
+/* 좌측 위에 그림 */
 #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng3 { z-index:2; position: absolute; top: 0; left: 0; width: 187px;  margin-top: 60px;}
 
 
