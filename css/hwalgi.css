@@ -50,9 +50,10 @@
 #wrap> #main> #section1{  position: relative;  width:100%;  padding:0;  }
 #wrap> #main> #section1>.container { position: relative; width:100%; margin:0 auto;padding:0;}		
 #wrap> #main> #section1>.container>.gap{ width: 100%; padding: 0 30px; }
-#wrap> #main> #section1>.container>.gap .redBox{ padding: 80px 0 80px 0; background:url(../img/common/redbg.png) no-repeat 50% 50% ; width: 100%; height: 692px; display: block; }
-#wrap> #main> #section1>.container>.gap .redBox .videoBox{ width:100%; max-width: 686px; height:auto;max-height: 387px; margin: 0 auto;}
-#wrap> #main> #section1>.container>.gap .redBox .videoBox img{width:100%;  }
+#wrap> #main> #section1>.container>.gap .redBox{ padding: 80px 30px ; background:url(../img/common/redbg.png) no-repeat 50% 50% ; width: 100%; height: 692px; display: block; }
+#wrap> #main> #section1>.container>.gap .redBox .videoBox{ width:100%; max-width: 686px; height:auto;max-height: 387px; margin: 0 auto; overflow: hidden;}
+#wrap> #main> #section1>.container>.gap .redBox .videoBox img{width:100%; }
+#wrap> #main> #section1>.container>.gap .redBox .videoBox video{width:100%;  max-width: 686px; height:auto;max-height: 387px; overflow: hidden; }
 #wrap> #main> #section1>.container>.gap .redBox .videoTxt{ text-align: center;font-weight: 400; padding-top: 70px; line-height:150% ;  font-family: 'Nanum Gothic';}
 #wrap> #main> #section1>.container>.gap .redBox .videoTxt .videoTxt1 {color: #fff; font-size: 18px; padding-bottom: 6px;  }
 #wrap> #main> #section1>.container>.gap .redBox .videoTxt .videoTxt2 {color: #fff; font-size: 24px;  }

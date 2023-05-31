@@ -34,8 +34,8 @@
 
 }
 @media all and (max-width:680px){	
-    #wrap> #main> #section1>.container>.gap .redBox{ padding: 30px 0 ;height: 490px;  display: block; }
-    #wrap> #main> #section1>.container>.gap .redBox .videoTxt{  padding-top: 10px; }
+    #wrap> #main> #section1>.container>.gap .redBox{ padding: 20px ;height: 490px;  display: block; }
+    #wrap> #main> #section1>.container>.gap .redBox .videoTxt{  padding-top: 50px; }
     
     /* 빨간박스 위  거품 */
     .bubbleWrap .bubbleImgBox .bubble1 {max-width:170px;margin-top: -90px;margin-left: 19px;  }
@@ -48,8 +48,8 @@
 
    
 
-    #wrap> #main> #section1>.container>.gap .redBox{ padding: 30px 0 ;height: 380px;  display: block; }
-    #wrap> #main> #section1>.container>.gap .redBox .videoTxt{  padding-top: 18px;  }
+    #wrap> #main> #section1>.container>.gap .redBox{padding: 15px ; height: 350px;  display: block; }
+    #wrap> #main> #section1>.container>.gap .redBox .videoTxt{  padding-top: 38px;  }
     #wrap> #main> #section1>.container>.gap .redBox .videoTxt img{ width: 280px; }
 
 
@@ -85,8 +85,8 @@
 
 
 
-    #wrap> #main> #section1>.container>.gap .redBox{ padding: 30px 0 ;height: 300px;  display: block; }
-    #wrap> #main> #section1>.container>.gap .redBox .videoTxt{  padding-top: 15px;  }
+    #wrap> #main> #section1>.container>.gap .redBox{ padding: 4px ;height: 270px;  display: block; }
+    #wrap> #main> #section1>.container>.gap .redBox .videoTxt{  padding-top: 30px;  }
     #wrap> #main> #section1>.container>.gap .redBox .videoTxt img{ width: 250px; }
 
 
