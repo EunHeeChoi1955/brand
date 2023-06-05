@@ -5,7 +5,7 @@
 
 
 
-#wrap { width:100%; max-width:1920px; margin:0 auto; display: block; min-height:100vh; background-size: cover; background: url(../img/common/bg\ 1.png) repeat center fixed;  }
+#wrap { width:100%; max-width:1920px; margin:0 auto; display: block; min-height:100vh;     background-size: cover; background: url(../img/common/bg\ 1.png) repeat center fixed;}
 
 
 
@@ -34,13 +34,54 @@
 
 
                     /* 거품메인텍스트  */
-                    .bubbleTopWrap  {  width: 100%;  max-width:1920px; display: block;  }
-                    .bubbleTopWrap .bubbleTopImgBox{ width: 100%;}
-                    .bubbleTopWrap .bubbleTopImgBox .bubbleTop1 { z-index:4; position: absolute; top:0;margin-top:184px; right: 50%; margin-right:-145px; width:auto;}
-                    .bubbleTopWrap .bubbleTopImgBox .bubbleTop2 { z-index:4; position: absolute; bottom: 0; margin-bottom:170px; right: 50%; margin-right: 112px; width:22px; height: 22px; }
-                    .bubbleTopWrap .bubbleTopImgBox .bubble img {width: 100%; }
+       #header .headercon .headerGap .bubbleTopWrap  {  width: 100%;  max-width:1920px; display: block;  }
+       #header .headercon .headerGap .bubbleTopWrap .bubbleTopImgBox{ width: 100%;}
+       #header .headercon .headerGap .bubbleTopWrap .bubbleTopImgBox .bubbleTop1 { z-index:4; position: absolute; top:0;margin-top:184px; right: 50%; margin-right:-145px; width:auto;}
+       #header .headercon .headerGap .bubbleTopWrap .bubbleTopImgBox .bubbleTop2 { z-index:4; position: absolute; bottom: 0; margin-bottom:170px; right: 50%; margin-right: 112px; width:22px; height: 22px; }
+       #header .headercon .headerGap .bubbleTopWrap .bubbleTopImgBox .bubble img {width: 100%; }
     
-    
+    /* 패럴럭스 이벤트 */
+/* 1. 윈도우 스크롤값이 아래로 내려가면 헤더 영역이 위로 부드럽게 미끄러지듯이 숨겨지고  */
+/* 활기락 로고 */
+#wrap #header.addParallaxUp .headerGap .logo  { animation:headerParallaxUp .4s ease-in-out forwards;   }
+@keyframes headerParallaxUp {
+    0%   { transform:translateY(50px); opacity: 0;}
+    10%  { transform:translateY(50px); opacity: 0;}
+    100% { transform:translateY(0px); opacity: 1;}
+}
+/* Red Ginseng for a healthy your life */
+#wrap #header.addParallaxUp .mainTxtBox  .subTxt1{ animation:headerParallaxUp .6s ease-in-out forwards;   }
+@keyframes headerParallaxUp {
+    0%   { transform:translateY(50px);opacity: 0; }
+    30%  { transform:translateY(50px);opacity: 0; } 
+    100% { transform:translateY(0px); opacity: 1; }
+}
+/* 당은 빼고! 활력은 더하고!  Zero Sugar 0%  */
+
+#wrap #header.addParallaxUp .mainTxtBox  .mainTxt{ animation:headerParallaxUp .8s ease-in-out forwards;   }
+@keyframes headerParallaxUp {
+    0%   { transform:translateY(50px);opacity: 0; }
+    30%  { transform:translateY(50px);opacity: 0; }
+    100% { transform:translateY(0px); opacity: 1; }
+}
+
+/* 2. 윈도우 스크롤값이 위로 올라가면 헤더 영역이 아래로 부드럽게 미끄러지듯이 나타난다  */
+/* 2-1. 스크롤탑값이 맨위에는 헤더영역 높이가 72px */
+/* 물방울 1 */
+#wrap #header.addParallaxUp .bubbleTopImgBox .bubbleTop1 { animation:addParallaxUp 1.9s ease-in-out forwards;   }
+@keyframes addParallaxUp  {
+    0%   { opacity: 0; }
+    30%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+/* 2-2. 스크롤탑값이 맨위가 아니면 헤더영역 높이가 60px */
+/* 물방울 2 */
+#wrap #header.addParallaxUp  .bubbleTopImgBox .bubbleTop2 { animation:addParallaxUp 1.9s ease-in-out forwards;   }
+@keyframes addParallaxUp {
+    0%   { opacity: 0; }
+    30%  { opacity: 0; }
+    100% { opacity: 1; }
+}
     
 
 
@@ -59,14 +100,74 @@
 #wrap> #main> #section1>.container>.gap .redBox .videoTxt .videoTxt2 {color: #fff; font-size: 24px;  }
 
 
-                    /* 빨간박스 위   거품 */
-                .bubbleWrap  {  width: 100%;  max-width:1920px; display: block;  }
-                .bubbleWrap .bubbleImgBox{ width: 100%;}
-                .bubbleWrap .bubbleImgBox .bubble1 { z-index:5; position: absolute; top:0; margin-top: -120px; left:0;margin-left: 79px; max-width:229px; width: 100%; }
-                .bubbleWrap .bubbleImgBox .bubble2 { z-index:5; position: absolute; bottom:0; margin-bottom: 530px; right:0;margin-right: 115px; max-width:115px;width: 100%;  }
-                .bubbleWrap .bubbleImgBox .bubble img {width: 100%;}
-              
+/* 빨간박스 위   거품 */
+#wrap> #main> #section1>.container>.gap .bubbleWrap  {  width: 100%;  max-width:1920px; display: block;  }
+#wrap> #main> #section1>.container>.gap .bubbleWrap .bubbleImgBox{ width: 100%;}
+#wrap> #main> #section1>.container>.gap .bubbleWrap .bubbleImgBox .bubble1 { z-index:5; position: absolute; top:0; margin-top: -120px; left:0;margin-left: 79px; max-width:229px; width: 100%; transition: all .9s;}
+#wrap> #main> #section1>.container>.gap .bubbleWrap .bubbleImgBox .bubble2 { z-index:5; position: absolute; bottom:0; margin-bottom: -50px; right:0;margin-right: 115px; max-width:115px;width: 100%; transition: all 1.2s; }
+#wrap> #main> #section1>.container>.gap .bubbleWrap .bubbleImgBox .bubble img {width: 100%; }
 
+/* 섹션1 패럴럭스 애니메이션 addParallax */
+#wrap #main #section1.addParallax .container .gap .bubbleWrap .bubbleImgBox .bubble1  {animation:sec1Ani1 1.2s ease-in-out forwards; }
+#wrap #main #section1.addParallax .container .gap .bubbleWrap .bubbleImgBox .bubble2  {animation:sec1Ani2 1.4s ease-in-out forwards; }
+#wrap #main #section1.addParallax .container .gap .redBox .videoTxt {animation:sec1Ani3 1.4s ease-in-out forwards; }
+
+@keyframes sec1Ani1 {
+      0% { opacity:0; }
+      40% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+@keyframes sec1Ani2 {
+    0% { opacity:0; }
+    70% { opacity:0; }
+  100% { opacity:1; }
+}
+
+
+@keyframes sec1Ani3 {
+    0% { transform:translateY(1000px);opacity:0; }
+  100% { transform:translateY(     0);opacity:1; }
+}
+
+
+
+/*              
+  rs-layer-wrap,rs-parallax-wrap,rs-loop-wrap,rs-mask-wrap {
+    display: block
+}
+
+rs-column-wrap>rs-mask-wrap,rs-column-wrap>rs-loop-wrap {
+    z-index: 1
+}
+
+rs-layer-wrap,rs-mask-wrap,rs-cbg-mask-wrap {
+    transform-style: flat
+}
+
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+    rs-carousel-wrap rs-layer-wrap, rs-carousel-wrap rs-loop-wrap {
+        backface-visibility:hidden;
+        transform-style: preserve-3d
+    }
+}
+
+.safarifix rs-layer-wrap {
+    perspective: 1000000
+}
+
+@-moz-document url-prefix() {
+    rs-layer-wrap,rs-mask-wrap,rs-cbg-mask-wrap {
+        perspective: none
+    }
+}
+
+
+
+
+                
+                */
 
 /* section2 */
 #wrap> #main> #section2{ position: relative; width:100%;max-width:1920px; height:100%; padding:0; overflow: hidden; }
@@ -77,8 +178,9 @@
 #wrap> #main> #section2>.container>.gap .productBoxWrap { width: 100%;  }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox { display: flex;  max-width: 632px; margin: 0 auto;}
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product { position: relative; z-index:5; display: inline-block;  width: auto; max-width: 300px; margin: 0 auto; }
-#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .imgBox { display: block; margin: 0 auto; width:100%; max-width: 217px; height: 100%; max-height: 217px; }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .imgBox { display: block; margin: 0 auto; width:100%; max-width: 217px; height: 100%; max-height: 217px; overflow: hidden; }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .imgBox img {  width:100%;  height: 100%;  }
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .imgBox:hover img {  transition: all .3s ease;  -webkit-transition: all .3s ease;  -moz-transition: all .3s ease;   -ms-transform: scale(1.1,1.1);   -webkit-transform: scale(1.1,1.1);   transform: scale(1.1,1.1);  }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox { padding-top: 7px; width:100%; line-height: 150%; text-align: center; font-family: 'Pretendard'; }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .proTxt1 { display: block; color: #4F4F4F; font-weight: 500;font-size: 15px; }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .proTxt2 { display: block; color: #A88E8E; font-weight: 400; font-size: 13px; letter-spacing: -.55px; padding: 6px 0 22px 0; }
@@ -93,12 +195,38 @@
 /* 우측 풀 */
 #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng1 { z-index:2; position: absolute; top: 0; right: 0; margin-top: 50px; width: 186px; }
 /* 좌측 밑에 그림 */
-#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng2 { z-index:2; position: absolute; top:0; margin-top: 150px; left: 0; width: 131px;  }
+#wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng2 { z-index:2; position: absolute; top:0; margin-top: 250px; left: 0; width: 131px;  }
 /* 좌측 위에 그림 */
 #wrap> #main> #section2>.container>.gap .ginsengImgWrap .ginsengImgBox .ginseng3 { z-index:2; position: absolute; top: 0; left: 0; width: 187px;  margin-top: 60px;}
 
 
 
+/* 섹션2 패럴럭스 애니메이션 addParallax */
+#wrap #main #section2.addParallax .container .gap .title {animation:sec2Ani1 1s ease-in-out forwards;}/*forwards : 마지막 수행된거 끝내라*/
+#wrap #main #section2.addParallax .container .gap .ginsengImgWrap .ginsengImgBox .ginseng1 {animation:sec2Ani2 1.2s ease-in-out forwards; }
+#wrap #main #section2.addParallax .container .gap .ginsengImgWrap .ginsengImgBox .ginseng2 {animation:sec2Ani3 1.4s ease-in-out forwards; }
+#wrap #main #section2.addParallax .container .gap .ginsengImgWrap .ginsengImgBox .ginseng3 {animation:sec2Ani4 1.6s ease-in-out forwards; }
+
+@keyframes sec2Ani1 {
+      0% { transform:translateY(50px);opacity:0; }
+    100% { transform:translateY(   0);opacity:1; }
+}
+
+
+@keyframes sec2Ani2 {
+    0% { transform:translateY(1000px);opacity:0; }
+  100% { transform:translateY(     0);opacity:1; }
+}
+
+@keyframes sec2Ani3 {
+    0% { transform:translateY(1000px);opacity:0; }
+  100% { transform:translateY(     0);opacity:1; }
+}
+
+@keyframes sec2Ani4 {
+    0% { transform:translateY(1000px);opacity:0; }
+  100% { transform:translateY(     0);opacity:1; }
+}
 
 
 

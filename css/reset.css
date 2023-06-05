@@ -2,7 +2,7 @@
 
 *{margin:0; padding:0; vertical-align:middle;box-sizing:border-box; }
 html, body {margin:0 auto; height:auto; display: block; }
-html{ width:100%; max-width:1920px; overflow-y:scroll; height: 100%;   }
+html{ width:100%; max-width:1920px; overflow-y:scroll;min-height:100vh;  }
 body{ width:100%;max-width:1920px; height: 100%;   font:14px/1  'Sandoll Jebi2','sans-serif'; color:#1a1a1a;   }
 i,em,address{font-style:normal;}
 h1,h2,h3,h4,h5,h6{ font-size:14px; font-weight:400; padding:0; margin:0; }
