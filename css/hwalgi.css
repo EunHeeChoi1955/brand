@@ -186,7 +186,7 @@ rs-layer-wrap,rs-mask-wrap,rs-cbg-mask-wrap {
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .proTxt2 { display: block; color: #A88E8E; font-weight: 400; font-size: 13px; letter-spacing: -.55px; padding: 6px 0 22px 0; }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox { width:100%; }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn {  border-radius: 2px; display: block; width: 125px; margin: 0 auto; font-weight: 400; padding:8px 0; font-size: 13px; text-align: center; color: #666666; font-weight: 400; border: 1px solid #C5C5C5; background: transparent; transition: all .2s;}
-#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn:hover {  background:rgba(255,255,255,.5);}
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn:hover {  background:rgba(255,255,255,.6); color: #000;}
 
 
 /* 배경 홍삼이미지 */
