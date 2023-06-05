@@ -118,9 +118,9 @@
     
     
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 350px) {
 
 
-
+    #wrap> #main> #section1>.container>.gap .redBox{ padding: 4px ;height: 250px;  display: block; }
 }
 
