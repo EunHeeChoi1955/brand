@@ -109,7 +109,7 @@
 
 /* 섹션1 패럴럭스 애니메이션 addParallax */
 #wrap #main #section1.addParallax .container .gap .bubbleWrap .bubbleImgBox .bubble1  {animation:sec1Ani1 1.2s ease-in-out forwards; }
-#wrap #main #section1.addParallax .container .gap .bubbleWrap .bubbleImgBox .bubble2  {animation:sec1Ani2 1.4s ease-in-out forwards; }
+#wrap #main #section1.addParallax .container .gap .bubbleWrap .bubbleImgBox .bubble2  {animation:sec1Ani2 2.0s ease-in-out forwards; }
 #wrap #main #section1.addParallax .container .gap .redBox .videoTxt {animation:sec1Ani3 1.4s ease-in-out forwards; }
 
 @keyframes sec1Ani1 {
