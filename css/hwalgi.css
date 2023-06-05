@@ -33,7 +33,7 @@
             .mainTxtBox .mainTxt .mainTxt2{ font-size: 50px; color: #E11E29;font-family: 'Noto Serif KR'; } */
 
 
-                    /* 거품메인텍스트  */
+    /* 거품메인텍스트  */
        #header .headercon .headerGap .bubbleTopWrap  {  width: 100%;  max-width:1920px; display: block;  }
        #header .headercon .headerGap .bubbleTopWrap .bubbleTopImgBox{ width: 100%;}
        #header .headercon .headerGap .bubbleTopWrap .bubbleTopImgBox .bubbleTop1 { z-index:4; position: absolute; top:0;margin-top:184px; right: 50%; margin-right:-145px; width:auto;}
@@ -185,7 +185,7 @@ rs-layer-wrap,rs-mask-wrap,rs-cbg-mask-wrap {
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .proTxt1 { display: block; color: #4F4F4F; font-weight: 500;font-size: 15px; }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .proTxt2 { display: block; color: #A88E8E; font-weight: 400; font-size: 13px; letter-spacing: -.55px; padding: 6px 0 22px 0; }
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox { width:100%; }
-#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn {  border-radius: 2px; display: block; width: 125px; margin: 0 auto; font-weight: 400; padding:8px 0; font-size: 13px; text-align: center; color: #666666; font-weight: 400; border: 1px solid #C5C5C5; background: transparent; transition: all .2s;}
+#wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn {  border-radius: 2px; display: block; width: 125px; margin: 0 auto; font-weight: 400; padding:8px 0; font-size: 13px; text-align: center; color: #666666; font-weight: 400; cursor: pointer;  border: 1px solid #C5C5C5; background: transparent; transition: all .2s;}
 #wrap> #main> #section2>.container>.gap .productBoxWrap .productBox .product .txtBox .btnBox .proBtn:hover {  background:rgba(255,255,255,.6); color: #000;}
 
 
@@ -242,7 +242,8 @@ rs-layer-wrap,rs-mask-wrap,rs-cbg-mask-wrap {
 #footer .container .gap .footerBtnBox .footerBtn .bar { margin-top:4px; font-size: 11px; font-weight: 300;}
 #footer .container .gap .footerBtnBox .footerBtn li a {line-height: 19px;  font-size:12px ; font-weight: 400; color: #4B4B4B;}
 #footer .container .gap address { line-height: 19px; display: block ;  text-align: center;font-size:12px ; font-weight: 400; color: #787676;} 
-#footer .container .gap address .searchNumBtn a { line-height: 19px; text-decoration:underline;color: #787676; vertical-align:baseline;} 
+#footer .container .gap address .searchNumBtn {  cursor: pointer; display: inline-block;  vertical-align:baseline; } 
+#footer .container .gap address .searchNumBtn a { line-height: 19px; text-decoration:underline;color: #787676; vertical-align:baseline; cursor: pointer;} 
 
 
 
